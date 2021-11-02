@@ -1,5 +1,5 @@
  
-\documentclass[margin,10pt]{res} % default is 10 pt
+\documentclass[resmargin,10pt]{res} % default is 10 pt
 % margin option puts section titles to left of text
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font 
@@ -7,17 +7,18 @@
             linkcolor = blue,
             urlcolor  = blue,
             citecolor = blue]{hyperref}
-
+\topmargin=-0.5in
+\usepackage[margin=0.5in, right=2.5in, left=1in, top=.7in]{geometry}
 \begin{document}
-\addtolength{\topmargin}{-.5in}
+%\addtolength{\topmargin}{-.5in}
 \name{\LARGE Jaiden Gerig} % the \\[11	pt] adds a blank line after name
 
-\address{ \hspace*{0.48in} (512) 893-9148 $|$ jaideng123@yahoo.com $|$ 18549 Stone Ave N, Shoreline, WA 98133 \\  \rule{\textwidth}{0.1pt}}
+\address{ \hspace*{0.8in} (512) 893-9148 $|$ jaideng123@yahoo.com $|$ 18549 Stone Ave N, Shoreline, WA 98133 \\  \rule{\textwidth}{0.1pt}}
 
 \begin{resume}
 \section{SUMMARY}
 %\hspace*{-\sectionwidth}
-Software engineer with multiple years experience building web applications and games.
+Software engineer with multiple years experience building web applications and games. \\
 \textbf{Games Portfolio:} \href{https://jaideng123.github.io/games/}{https://jaideng123.github.io/games/}
  
 \section{WORK EXPERIENCE}   
@@ -45,7 +46,8 @@ Software engineer with multiple years experience building web applications and g
                 Junior Software Engineer &  \hfill Oct 2015 - Apr 2017
                 \end{ncolumn}
                 \begin{itemize}           
-                \item  Built various web applications for mid-size businesses such as a \textit{Dog Registration Web Portal} and \textit{Credit Insurance Reporting System}. Met with clients to gather requirements, developed features using web technologies, and managed deployment \& hosting on AWS.
+                \item  Built various web applications for mid-size businesses such as a \textit{Dog Registration Web Portal} and \textit{Credit Insurance Reporting System}.
+                \item Met with clients to update progress and gather requirements, developed features using web technologies, and managed deployment \& hosting on AWS.
                 \end{itemize}
                     
 \section{TECHNICAL SKILLS}	
@@ -62,9 +64,9 @@ Software engineer with multiple years experience building web applications and g
                     		\end{itemize} 
 \section{PERSONAL PROJECTS}
 				\begin{itemize}       
-				\item \textbf{ArrowBall} - Multiplayer arrow-sports game independently designed and built with Unity over a year-long development cycle. Available on Steam.
-                	\item \textbf{Where's My Keys?} - Game Jam submission created in collaboration with 5 team members. Featured on official Unity Global Game Jam stream and TheGamer.com.
-                	\item \textbf{TRITIX} - Turn-based mobile game built with Unity featuring both local and online multiplayer and AI opponents. Available on the Google Play Store.
+				\item \textbf{ArrowBall} - Multiplayer arrow-sports game independently designed and built with Unity over a year-long development cycle. Currently available on Steam.
+                	\item \textbf{Where's My Keys?} - Game Jam submission created in collaboration with a team of artists, a sound designer and another programmer. Featured on official Unity Global Game Jam stream and TheGamer.com.
+                	\item \textbf{TRITIX} - Turn-based mobile game independently built with Unity featuring both local and online multiplayer and AI opponents. Currently available on the Google Play Store.
                 	\item \textbf{Scratch-3D} - Rendering engine independently created from scratch with C++ and OpenGL. Features a scene editor with full serialization and deserialization and support for materials with custom shader properties.
                 \end{itemize}
                 

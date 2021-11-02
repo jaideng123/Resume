@@ -1,25 +1,19 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=latex 2014.1.21)  12 AUG 2014 23:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.27)  2 NOV 2021 12:19
 entering extended mode
-**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx\HCode\def\HCod
-e##1{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.{\g
-@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\doc
-umentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname te
-x4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HC
-ode}{\documentstyle[tex4ht]}}}\makeatother\HCode .a.b.c.\input  C:\Users\Jaiden
-\Dropbox\Resume\Jaiden_Gerig-Resume.tex
+**res.tex
 
 ! Emergency stop.
-<*> ...}\makeatother\HCode .a.b.c.\input  C:\Users
-                                                  \Jaiden\Dropbox\Resume\Jai...
-End of file on the terminal!
+<*> res.tex
+           
+*** (job aborted, file error in nonstop mode)
 
  
 Here is how much of TeX's memory you used:
- 4 strings out of 493922
- 56 string characters out of 3147302
- 49031 words of memory out of 3000000
- 3403 multiletter control sequences out of 15000+200000
- 3640 words of font info for 14 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 4i,0n,3p,1b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
-No pages of output.
+ 2 strings out of 478864
+ 13 string characters out of 2848660
+ 292975 words of memory out of 3000000
+ 18032 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 0i,0n,0p,1b,6s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
