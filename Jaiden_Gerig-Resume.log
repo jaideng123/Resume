@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.27)  27 NOV 2021 10:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.27)  27 NOV 2021 11:02
 entering extended mode
 **./Jaiden_Gerig-Resume.tex
 (Jaiden_Gerig-Resume.tex
@@ -282,15 +282,15 @@ LaTeX Info: Redefining \nameref on input line 12.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 361.35002pt, 180.67499pt)
-* v-part:(T,H,B)=(28.90755pt, 729.92744pt, 36.135pt)
+* h-part:(L,W,R)=(57.81621pt, 397.48502pt, 158.99377pt)
+* v-part:(T,H,B)=(43.36243pt, 715.47256pt, 36.135pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=361.35002pt
-* \textheight=729.92744pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-43.36244pt
+* \textwidth=397.48502pt
+* \textheight=715.47256pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-28.90756pt
 * \headheight=0.0pt
 * \headsep=0.0pt
 * \topskip=10.0pt
@@ -312,25 +312,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 21.
-
-Overfull \hbox (0.1572pt too wide) in paragraph at lines 72--73
-[]\OT1/cmr/bx/n/10 ArrowBall \OT1/cmr/m/n/10 - Mul-ti-player arrow-sports game 
-in-de-pen-dently de-signed and built
- []
-
-
-Overfull \hbox (7.15604pt too wide) in paragraph at lines 76--77
-[]\OT1/cmr/bx/n/10 Scratch-3D \OT1/cmr/m/n/10 - Ren-der-ing en-gine in-de-pen-d
-ently cre-ated with C++ and OpenGL.
- []
-
 [1
 
 {C:/Users/JJJai/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] ) 
 Here is how much of TeX's memory you used:
  8081 strings out of 478864
  121851 string characters out of 2848660
- 446974 words of memory out of 3000000
+ 445976 words of memory out of 3000000
  25950 multiletter control sequences out of 15000+600000
  405331 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -343,7 +331,7 @@ mbx12.pfb><C:/Users/JJJai/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmr10.pfb><C:/Users/JJJai/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb><C:/Users/JJJai/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Jaiden_Gerig-Resume.pdf (1 page, 88386 bytes).
+Output written on Jaiden_Gerig-Resume.pdf (1 page, 88344 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
