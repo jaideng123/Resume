@@ -7,83 +7,96 @@
             urlcolor  = blue,
             citecolor = blue]{hyperref}
 \topmargin=-0.5in
-\usepackage[margin=0.5in, right=2.2in, left=.8in, top=.6in]{geometry}
+\newsectionwidth{9.0em}
+\usepackage[margin=0.5in, right=2.0in, left=.8in, top=.6in]{geometry}
+\usepackage{enumitem}
 \begin{document}
 %\addtolength{\topmargin}{-.5in}
 \name{\LARGE Jaiden Gerig} % the \\[11	pt] adds a blank line after name
 
-\address{ \hspace*{2.2in} (512) 893-9148 $|$ \underline{jaideng123@yahoo.com}\\
+\address{ \hspace*{2.2in} (512) 893-9148 $|$ \underline{jaidengerig@gmail.com}\\
     \rule{\textwidth}{0.1pt}
-    \\ \hspace*{1.5in}
+    \\ \hspace*{1.95in}
     \textbf{Portfolio:} \href{https://jaideng123.github.io/games/}{https://jaideng123.github.io/games/} \\}
 
 \begin{resume}
 
     \section{SUMMARY}
-    Gameplay Engineer with multiple years experience building online games \& applications.
+    Gameplay Engineer with 7 years experience building online games \& applications
 
     \section{WORK EXPERIENCE}
 
      {\bf Niantic Labs} - Bellevue, WA \\
     \begin{ncolumn}{1}
-        Senior Client Gameplay Engineer - \textit{Pokémon GO} \hfill Apr 2022 - Present
+        {\bf Senior Client Gameplay Engineer} - \textit{Pokémon GO} \hfill Apr 2022 - Present
     \end{ncolumn}
     \begin{itemize}
         \setlength\itemsep{-0.0em}
-        \item Led Gameplay Engineering for Dynamax \& Gigantamax Battles from Concept \& Prototype, through Production, to Launch. One of our most successful new features with over 13 million battles within 24 hours of release.
-        \item Led Gameplay Engineering for Pokéstop Showcases feature from Pre-Production to Launch.
-        \item Assisted in design and development of new unified Multiplayer Battle System as the primary Client Engineer.
-        \item Implemented brand new haptic effect system to enhance gameplay interactions.
-        \item Partnered with Tech-Art and Game Design to develop tooling to tweak the speed of every animation and transition in the game.
+        \item Gameplay Engineering Feature Lead - \textit{Dynamax \& Gigantamax Battles}
+        \begin{itemize}[leftmargin=0.5em,topsep=0.0em]
+            \setlength\itemsep{-0.0em}
+            \item Created and iterated on initial prototypes while facilitating weekly internal playtests
+            \item Drafted technical design and led 5 client \& server engineers to build out Pokémon Go's first new multiplayer PVE game mode since launch on a tight timeline
+            \item Built major systems: system for tech artists to create in-battle cutscenes that accounts for network latency and consistency, system for server to manipulate UI during battle
+            \item Launched on schedule with over 13 million battles within 24 hours and no major issues
+        \end{itemize}
+        \item Gameplay Engineering Feature Lead - \textit{Pokéstop Showcases}
+        \begin{itemize}[leftmargin=0.5em,topsep=0.0em]
+            \setlength\itemsep{-0.0em}
+            \item Drafted initial technical design and led 4 server \& client engineers to develop asynchronous PVP gameplay feature
+            \item Extended Pokéstop system, the oldest system in the game, to support showcase spawning
+            \item Worked closely with UX and tech art to implement cutscenes and polish UI elements
+        \end{itemize}
+        \item Designed and developed client-side portion of new unified multiplayer battle system
+        \item Created new haptic effect system to enhance gameplay interactions for players
     \end{itemize}
     {\bf Amazon.com} - Seattle, WA \\
-    \begin{ncolumn}{1} % produces two equally spaced columns
-        Software Development Engineer II - \textit{FC Games}  \hfill Mar 2019 - Apr 2022
+    \begin{ncolumn}{1}
+        {\bf Software Development Engineer II} - \textit{FC Games}  \hfill Mar 2019 - Apr 2022
     \end{ncolumn}
     \begin{itemize}
-        \setlength\itemsep{-0.0em}
-        \item Built and improved Unity games backed by AWS for player-base of 10,000+ associates at Amazon Fulfillment Centers.
-        \item Designed and built new tutorial system to help players learn our various games, a system for large-scale player contests, and mechanisms to gather and aggregate player feedback.
+        \setlength\itemsep{-0.1em}
+        \item Built and improved Unity games with AWS back-end for player-base of 10,000+ employees
+        \item Designed and built new tutorial system to help players learn the ins \& outs of our games
+        \item Created a new feature that enables large-scale team-based player contests
+        \item Designed progression system for players to earn levels and unlock cosmetics across games
+        \item Implemented survey mechanisms to gather and analyze player feedback
     \end{itemize}
     {\bf Capital One Financial} - Plano, TX \\
     \begin{ncolumn}{1}
-        Associate Software Engineer \hfill Jun 2017 - Mar 2019
+        {\bf Associate Software Engineer} \hfill Jun 2017 - Mar 2019
     \end{ncolumn}
     \begin{itemize}
-        \item Developed UI for key products for Capital One's Auto-Finance division.
+        \item Developed UI for key web applications for Capital One Auto Finance division
     \end{itemize}
     {\bf FrogSlayer Consulting LLC} - Bryan, TX \\
-    \begin{ncolumn}{1} % produces two equally spaced columns
-        Junior Software Engineer \hfill Oct 2015 - Apr 2017
+    \begin{ncolumn}{1}
+        {\bf Junior Software Engineer} \hfill Oct 2015 - Apr 2017
     \end{ncolumn}
     \begin{itemize}
         \setlength\itemsep{-0.0em}
-        \item  Built various .Net \& C++ web applications for small to mid-size businesses.
+        \item  Built web applications for small businesses with .Net \& C++ frameworks
     \end{itemize}
 
     \section{TECHNICAL SKILLS}
     \begin{itemize}
-        \setlength\itemsep{-0.0em}
-        \item[]
-              \textbf{\large Languages:} \textbf{C\#}, \textbf{C++}, \textbf{Java}, \textbf{Javascript}, \textbf{Python}\\
-              \textbf{\large Technologies:} \textbf{Unity}, \textbf{Amazon Web Services}, \textbf{Git}, \textbf{Godot}, \textbf{Unreal Engine}
+        \setlength\itemsep{0.1em}
+        \item[] {\large Languages:} \textbf{C\#}, \textbf{C++}, \textbf{Java}, \textbf{Javascript}, \textbf{Python}
+        \item[] {\large Technologies:} \textbf{Unity}, \textbf{Git}, \textbf{Mobile}, \textbf{AWS}, \textbf{Godot}, \textbf{Unreal Engine}
     \end{itemize}
-    \section{PERSONAL}
+    \section{PERSONAL / VOLUNTEER EXPERIENCE}
     \begin{itemize}
         \setlength\itemsep{-0.0em}
-        \item \textbf{Seattle Indies} - Volunteer to help host and run various events for local game developers. Mentor others through mentorship program.
-        \item \textbf{ArrowBall} - Multiplayer arrow-sports game independently designed and built over a year-long development cycle. Available on Steam.
-        \item \textbf{Rebound} - Submission for the Seattle Indies Slow Jam created with a small team of artists \& a sound designer. Winner: Judge's Choice \& Community Choice.
-        \item \textbf{DueTween} - Unreal plugin that provides a flexible and efficient tweening framework. Currently being used for a bowling game I'm working on.
-        \item \textbf{Claw \& Order} - Godot game about building impossibly high towers of food created with a team consisting of me, an artist, and a sound designer.
-        \item \textbf{Scratch-3D} - Personal engine independently created with C++ and OpenGL. \\Features an editor with scene serialization \& deserialization, and custom materials.
+        \item \textbf{Seattle Indies} - Host and run social \& professional events for local game developers. Mentor new developers looking to enter the industry.
+        \item \textbf{ArrowBall} - Independently designed and built multiplayer arrow-sports game over a year-long development cycle. Available on Steam.
+              % \item \textbf{Rebound} - Submission for the Seattle Indies Slow Jam created with a small team of artists \& a sound designer. Winner: Judge's Choice \& Community Choice.
+        \item \textbf{DUETween} - Developing an Unreal Engine plugin that provides a flexible and efficient tweening framework. Currently being tested with a personal project before wider release.
+        \item \textbf{Claw \& Order} - Created Godot game about building impossibly high towers of food with a team consisting of me, an artist, and a sound designer.
+        \item \textbf{Scratch-3D} - Built personal game engine with C++ and OpenGL that features an editor with scene serialization \& deserialization and support for custom materials and shaders.
     \end{itemize}
 
     \section{EDUCATION}
-     {\bf Texas A\&M University} - College Station, TX \hfill
-    Graduated: May 2017 \\
-    B.S. Computer Science,
-    \textit{Minor in Mathematics}
+     {\bf Texas A\&M University} - \textit{B.S. Computer Science, Minor in Mathematics}
 \end{resume}
 \end{document}
 
